@@ -23,8 +23,5 @@ Sektör esnaflarının ve kurumsal işletmelerin; şehir, ilçe ve kategori bazl
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap 5.3
 - **Tasarım & UI/UX:** Adobe Illustrator (Özel Vektörel İkon ve Logo Tasarımları)
 
-
-
-1. Proje ana klasörünü yerel PHP sunucunuzun (XAMPP / WampServer / Laragon) `htdocs` veya `www` kök dizinine aktarın:
-```bash
-   git clone [https://github.com/nisanur-dogan/yakinda-ne-var-rehber.git](https://github.com/nisanur-dogan/yakinda-ne-var-rehber.git)
+## Katkıda Bulunanlar (Contributors)
+* **Nisa Nur Doğan** - *Geliştirici* - [nisanur-dogan](https://github.com/nisanur-dogan)
