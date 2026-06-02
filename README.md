@@ -6,7 +6,7 @@ Sektör esnaflarının ve kurumsal işletmelerin; şehir, ilçe ve kategori bazl
 
 - **İlişkisel Arama ve Filtreleme Motoru:** Kullanıcıların esnaf sorgularını hafifletmek ve performansı artırmak amacıyla kurgulanmış, şehir ve kategori parametrelerine bağlı dinamik SQL sorgu mimarisi.
 - **Modüler Kullanıcı Arayüzü (`kullanici/`):** İşletmelerin harita konum verilerini, çalışma saatlerini, detaylı hizmet tanımlarını ve iletişim kanallarını listeleyen modüler detay sayfası (`detay.php`).
-- **Güvenli Yönetim (Admin) Paneli (`admin/`):** Yetkilendirilmiş admin girişi (`login.php`) aracılığıyla sisteme yeni işletme ekleme, hatalı bilgileri revize etme, silme ve onay bekleyen esnaf başvurularını veritabanı seviyesinde yönetme (CRUD).
+- **Güvenli Yönetim (Admin) Paneli (`admin/`):** Yetkilendirilmiş admin girişi (`login.php`) aracılığıyla sisteme yeni işletme ekleme, bilgileri güncelleme, silme ve onay bekleyen esnaf başvurularını veritabanı seviyesinde yönetme (CRUD).
 - **Responsive Arayüz:** CSS mimarisi ve Bootstrap grid sistemi kullanılarak tamamen mobil uyumlu (responsive) olarak geliştirilmiş premium koyu tema tasarımı.
 
 ##  Proje Klasör Yapısı
@@ -15,7 +15,6 @@ Sektör esnaflarının ve kurumsal işletmelerin; şehir, ilçe ve kategori bazl
 - `/kullanici` - Şehir/kategori filtreleme arayüzü ve işletme detay modüllerinin yer aldığı müşteri katmanı.
 - `/includes` - Veritabanı PDO bağlantı mimarisini (`config.php`) ve global yardımcı fonksiyonları (`functions.php`) içeren çekirdek dizin.
 - `/assets` - Portfolyo genel tasarımıyla uyumlu pastel kırmızı, bordo ve beyaz tonlarındaki CSS stilleri ile özel font yapılandırmaları.
-- `/uploads` & `/php2_proje_resim` - İşletmelere ait logoların ve kapak görsellerinin dinamik olarak saklandığı medya klasörleri.
 
 ##  Teknolojik Stack
 
@@ -27,5 +26,5 @@ Sektör esnaflarının ve kurumsal işletmelerin; şehir, ilçe ve kategori bazl
 
 
 1. Proje ana klasörünü yerel PHP sunucunuzun (XAMPP / WampServer / Laragon) `htdocs` veya `www` kök dizinine aktarın:
-   ```bash
+```bash
    git clone [https://github.com/nisanur-dogan/yakinda-ne-var-rehber.git](https://github.com/nisanur-dogan/yakinda-ne-var-rehber.git)
